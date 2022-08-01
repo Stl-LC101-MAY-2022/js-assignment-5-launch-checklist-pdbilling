@@ -14,13 +14,6 @@ window.addEventListener("load", function() {
         
         formSubmission(document, list, pilotName, copilotName, fuelLevel, cargoMass);
 
-        // if (validate.empty) {
-        //     alert('All fields are requied!');
-        // }
-        // if (validate.invalid) {
-        //     alert('Make sure to enter valid information for each field!');
-        // }
-
         event.preventDefault();
     });
     
